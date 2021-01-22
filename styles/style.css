@@ -1,0 +1,116 @@
+
+
+
+ html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: lightred;
+    background-image: url(PICS/bg-pattern-desktop.svg);
+    margin: auto;
+    
+}
+
+header {
+    margin:-2rem 0 0 -1.5rem;
+    padding:0 auto;
+    position: relative;
+}
+
+.container {
+    display:flex;
+    margin:0 auto;
+}
+
+
+
+.header-1 {
+    margin: 0 20px;
+    margin-bottom: 100px;
+
+}
+.header-2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+    margin-bottom: 0 auto;
+    padding-bottom: -10rem;
+}
+
+
+
+
+ @media screen and(min-width:478px){
+   .container {
+       display: flex;
+       margin:0 auto;
+       flex-direction: column-reverse;
+        
+
+       
+       
+   } 
+}
+
+
+
+.header-3 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: -50px;
+    margin-top: -50px;
+    color: black;
+}
+
+.para {
+    margin-top: 30px;
+}
+.column-1 {
+    flex: 2;
+    padding:100px;
+    margin: 0 auto;
+   /* background: lightpink;*/
+    background-image: linear-gradient(135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%));
+    
+
+}
+
+.column-2 {
+    flex: 1;
+    padding:0 0;
+    
+} 
+
+
+
+#style {
+    border-radius: 50px;
+    border-color: hsl(0, 36%, 70%) 1px solid;
+    height: 2.5rem;
+    width: 20rem;
+    outline: none;
+}
+
+.button {
+    margin-left: -4rem;
+    border-radius: 3rem;
+    border-color: hsl(0, 36%, 70%) 1px solid;
+    height: 3rem;
+    width: 20%;
+    cursor: pointer;
+    background:hsl(0, 36%, 70%) ;
+    outline: none;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
